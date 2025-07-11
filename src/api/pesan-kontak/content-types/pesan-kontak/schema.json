@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pesan_kontaks",
+  "info": {
+    "singularName": "pesan-kontak",
+    "pluralName": "pesan-kontaks",
+    "displayName": "Pesan Kontak"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
