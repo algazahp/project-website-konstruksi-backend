@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
   app: {
-    keys: env.array('APP_KEYS'),
+    keys: env.array('abc123','def456','ghi789','jkl012'),
   },
 });
